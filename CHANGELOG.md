@@ -1,3 +1,111 @@
+## [5.15.5](https://github.com/appium/WebDriverAgent/compare/v5.15.4...v5.15.5) (2023-12-13)
+
+
+### Miscellaneous Chores
+
+* use appearance for get as well if available ([#825](https://github.com/appium/WebDriverAgent/issues/825)) ([89e233d](https://github.com/appium/WebDriverAgent/commit/89e233d8aef5a19491785fee0823fd8eddbd5fcc))
+
+## [5.15.4](https://github.com/appium/WebDriverAgent/compare/v5.15.3...v5.15.4) (2023-12-07)
+
+
+### Bug Fixes
+
+* set appearance in iOS 17+ ([#818](https://github.com/appium/WebDriverAgent/issues/818)) ([357a2cb](https://github.com/appium/WebDriverAgent/commit/357a2cbca106daf42bc892b251802bfa00895598))
+
+## [5.15.3](https://github.com/appium/WebDriverAgent/compare/v5.15.2...v5.15.3) (2023-11-24)
+
+
+### Miscellaneous Chores
+
+* Make xcodebuild error message more helpful ([#816](https://github.com/appium/WebDriverAgent/issues/816)) ([2d7fc03](https://github.com/appium/WebDriverAgent/commit/2d7fc0370b30e5e3adc9a13002fa95f607c4c160))
+
+## [5.15.2](https://github.com/appium/WebDriverAgent/compare/v5.15.1...v5.15.2) (2023-11-23)
+
+
+### Bug Fixes
+
+* fix run test ci ([#814](https://github.com/appium/WebDriverAgent/issues/814)) ([014d04d](https://github.com/appium/WebDriverAgent/commit/014d04df956e47fef67938b089511e80d344f007))
+
+
+### Miscellaneous Chores
+
+* a dummy commit to check a package release ([08388fd](https://github.com/appium/WebDriverAgent/commit/08388fd602ee9d588a8780e8d141d748813782ed))
+
+## [5.15.1](https://github.com/appium/WebDriverAgent/compare/v5.15.0...v5.15.1) (2023-11-16)
+
+
+### Bug Fixes
+
+* Content-Type of the MJPEG server ([b4704da](https://github.com/appium/WebDriverAgent/commit/b4704dafc4567e1f0dc8675facfc48a195aae4bf))
+
+
+### Code Refactoring
+
+* Optimize screenshots preprocessing ([#812](https://github.com/appium/WebDriverAgent/issues/812)) ([0b41757](https://github.com/appium/WebDriverAgent/commit/0b41757c0d21004afab32860b4e510d4bc426018))
+
+## [5.15.0](https://github.com/appium/WebDriverAgent/compare/v5.14.0...v5.15.0) (2023-11-16)
+
+
+### Features
+
+* Add element attributes to the performAccessibilityAudit output ([#808](https://github.com/appium/WebDriverAgent/issues/808)) ([0d7e4a6](https://github.com/appium/WebDriverAgent/commit/0d7e4a697adb7355279583eaa05118f396056e6f))
+
+## [5.14.0](https://github.com/appium/WebDriverAgent/compare/v5.13.3...v5.14.0) (2023-11-10)
+
+
+### Features
+
+* use khidusage_keyboardclear to `clear` for iOS/iPad as the 1st attempt, tune tvOS ([#811](https://github.com/appium/WebDriverAgent/issues/811)) ([dd093ea](https://github.com/appium/WebDriverAgent/commit/dd093ea0b7209c3d2f3d0b1fa7f3a7b58507dd2d))
+
+## [5.13.3](https://github.com/appium/WebDriverAgent/compare/v5.13.2...v5.13.3) (2023-11-10)
+
+
+### Bug Fixes
+
+* unrecognized selector sent to instance 0x2829adb20 error in clear ([#809](https://github.com/appium/WebDriverAgent/issues/809)) ([79832bc](https://github.com/appium/WebDriverAgent/commit/79832bc6c69e289091fbbb97aee6a1f1d17ca4c3))
+
+## [5.13.2](https://github.com/appium/WebDriverAgent/compare/v5.13.1...v5.13.2) (2023-11-06)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump @types/sinon from 10.0.20 to 17.0.0 ([#805](https://github.com/appium/WebDriverAgent/issues/805)) ([824f74c](https://github.com/appium/WebDriverAgent/commit/824f74c69769973858350bd5db0061510c546b09))
+
+## [5.13.1](https://github.com/appium/WebDriverAgent/compare/v5.13.0...v5.13.1) (2023-11-01)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump asyncbox from 2.9.4 to 3.0.0 ([#803](https://github.com/appium/WebDriverAgent/issues/803)) ([0f2305d](https://github.com/appium/WebDriverAgent/commit/0f2305d2559dc0807d7df0d0e06f7fc3c549701c))
+
+## [5.13.0](https://github.com/appium/WebDriverAgent/compare/v5.12.3...v5.13.0) (2023-10-31)
+
+
+### Features
+
+* Add "elementDescription" property to audit issues containing the debug description of an element ([#802](https://github.com/appium/WebDriverAgent/issues/802)) ([9925af4](https://github.com/appium/WebDriverAgent/commit/9925af44ec5fbfb66e6f034dfd93a6c25de48661))
+
+## [5.12.3](https://github.com/appium/WebDriverAgent/compare/v5.12.2...v5.12.3) (2023-10-31)
+
+
+### Miscellaneous Chores
+
+* Return better error on WDA startup timeout ([#801](https://github.com/appium/WebDriverAgent/issues/801)) ([796d5e7](https://github.com/appium/WebDriverAgent/commit/796d5e743676b174221e27e739a0164f4b91533c))
+
+## [5.12.2](https://github.com/appium/WebDriverAgent/compare/v5.12.1...v5.12.2) (2023-10-29)
+
+
+### Miscellaneous Chores
+
+* return operation error in `handleKeyboardInput` ([#799](https://github.com/appium/WebDriverAgent/issues/799)) ([247ace6](https://github.com/appium/WebDriverAgent/commit/247ace68f373c09054fabc3be088061089946806))
+
+## [5.12.1](https://github.com/appium/WebDriverAgent/compare/v5.12.0...v5.12.1) (2023-10-28)
+
+
+### Bug Fixes
+
+* when 0 is given for handleKeyboardInput ([#798](https://github.com/appium/WebDriverAgent/issues/798)) ([58ebe8e](https://github.com/appium/WebDriverAgent/commit/58ebe8eb52966963ee30a5c066beb3bf9fed3161))
+
 ## [5.12.0](https://github.com/appium/WebDriverAgent/compare/v5.11.7...v5.12.0) (2023-10-26)
 
 
